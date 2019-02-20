@@ -1,1 +1,37 @@
-/* Acá va tu código */
+.bd{
+    background-image: url("file:///C:/Users/Liz/Downloads/fondo%205.webp"); 
+    background-size: cover;
+  
+
+}
+
+
+.centrado{
+    margin:30px auto;
+	display:block;
+}
+
+#concept{
+    font-size: 30px;
+    font-family: initial;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+#boton1{
+    background-color: coral;
+    border:none;
+    color: white;
+    padding: 15px 15px;
+    font-size: 20px;
+    font-family:unset;
+    margin-left: 20px;
+}
+
+.named{
+    font-size: 30px;
+    font-family: initial;
+    font-style: italic;
+    text-align: center;
+}
