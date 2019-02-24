@@ -7,35 +7,61 @@
    </head>
    <body class= "bd">
      <!--El logo de mi empresa-->
-         <div id="named">
-            <div id="concept">
+
+      <section id="concept">
+            <article id="named" >
                <figure   >
                      <img src= "C:\Users\Liz\Documents\JavaScript\LIM009-Cipher\img\logo.PNG "
                         alt="">
                   </figure>
-             
-         <p> 
+
+         <p>
            <strong> Riddle code es una compañia encargada de brindar seguridad a tus mensajes <br>
             para cuidar tu privacidad. </strong>
-        
+
+
          </p>
          <br>
-         <footer >
-            <form>Ingresa tu nombre:<br>
-               <input id="user" type="text"  name="Ingresa tu nombre"><br>
+
+            <!--Se muestra el nombre-->
+               <div >
+                     <form>Ingresa tu nombre:<br>
+                         <input id="user" type="text"  name="Ingresa tu nombre"><br>
+                            <br>
+                     <input type="button" value="Empezar" id="boton1" onclick="showName()" >
+                     </form>
+                  </div>
+
+               </article>
+
+
+
+         <!--texto para encriptar  -->
+
+         <form id = encriptForm >
+               <p>INGRESE SU TEXTO</p>
+                <input type="text"  id = "firstText">
+                <br>
+                <br>
+
+                Offset <input type="text"   id ="getASCCI" >
                <br>
-               <input type="button" value="Empezar" id="boton1" onclick="showName()" >
-            </form>
-          
-         </footer>
-         </div>
- 
-         </div>
+               <h1 id = "textoAqui">  </h1> 
+
+               <input type="button" value ="encript" id ="encriptButton" onclick="showText()">
+
+               <br>
+
+               <br>
 
 
-         <div id= Cifrar>
-            
-         </div>
+         </form>
+
+
+      </section>
+
+
+
 
       <script type="text/javascript"src="cipher.js"></script>
       <script type="text/javascript" src="index.js"></script>
