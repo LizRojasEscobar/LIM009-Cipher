@@ -1,5 +1,5 @@
 .bd{
-    background-image: url("file:///C:/Users/Liz/Downloads/fondo%205.webp"); 
+    background-image: url("file:///C:/Users/Liz/Downloads/fondo9.webp"); 
     background-size: cover;
   
 
@@ -20,13 +20,23 @@
 }
 
 #boton1{
-    background-color: coral;
+   
+     background-color:#1fbdad;
     border:none;
     color: white;
     padding: 15px 15px;
     font-size: 20px;
     font-family:unset;
     margin-left: 20px;
+    border-radius: 5px;
+}
+
+#user{
+    border-radius: 15px;
+    background-color:khaki;
+    width: 150px;
+    padding: 20px;
+    border-color:#e3cc77; 
 }
 
 .named{
@@ -34,4 +44,49 @@
     font-family: initial;
     font-style: italic;
     text-align: center;
+}
+
+
+#firstText{
+    border-radius: 15px;
+    background-color: khaki;
+    width: 200px;
+    padding: 100px;
+    
+
+}
+
+#getASCCI{
+    border-radius: 15px;
+    background-color:khaki;
+    width: 150px;
+    padding: 10px;
+
+}
+#encriptButton{
+    background-color:#1fbdad;
+    border:none;
+    color: white;
+    padding: 15px 15px;
+    font-size: 20px;
+    font-family:unset;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+p{
+    font-style: initial;
+    font-size: 22px;
+    color :black;
+    font-style: italic;
+}
+
+#desencriptButton{
+    background-color:#1fbdad;
+    border:none;
+    color: white;
+    padding: 15px 15px;
+    font-size: 20px;
+    font-family:unset;
+    margin-left: 20px;
+    border-radius: 5px;
 }

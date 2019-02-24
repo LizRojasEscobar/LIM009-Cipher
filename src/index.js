@@ -20,3 +20,14 @@ const showText = () => {
 
 
 };
+
+const showTextDesencript = () => {
+
+
+
+     let getText =document.getElementById ("firstText").value;
+     let encriptNumber =document.getElementById ("getASCCI").value;
+     document.getElementById("textoAqui").innerHTML = (window.cipher.decode(encriptNumber,getText));
+
+
+};

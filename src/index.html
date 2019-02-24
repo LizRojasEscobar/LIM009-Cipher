@@ -11,24 +11,25 @@
       <section id="concept">
             <article id="named" >
                <figure   >
-                     <img src= "C:\Users\Liz\Documents\JavaScript\LIM009-Cipher\img\logo.PNG "
+                     <img src= "C:\Users\Liz\Documents\JavaScript\LIM009-Cipher\img\logo1.PNG "
                         alt="">
                   </figure>
 
-         <p>
-           <strong> Riddle code es una compañia encargada de brindar seguridad a tus mensajes <br>
-            para cuidar tu privacidad. </strong>
-
-
-         </p>
          <br>
+           <strong> Riddle code es una compañia encargada de brindar seguridad a tus mensajes <br>
+            encriptandolos, para cuidar tu privacidad. </strong>
+            <br>
+<br>
+
+         
+         
 
             <!--Se muestra el nombre-->
                <div >
-                     <form>Ingresa tu nombre:<br>
+                     <form>Ingresa tu nombre:<br><br>
                          <input id="user" type="text"  name="Ingresa tu nombre"><br>
                             <br>
-                     <input type="button" value="Empezar" id="boton1" onclick="showName()" >
+                     <input type="button" value="Empezar"  id="boton1" onclick="showName()" >
                      </form>
                   </div>
 
@@ -36,30 +37,35 @@
 
 
 
-         <!--texto para encriptar  -->
+       <!--texto para encriptar  -->
 
-         <form id = encriptForm >
-               <p>INGRESE SU TEXTO</p>
-                <input type="text"  id = "firstText">
-                <br>
-                <br>
+       <form id = encriptForm >
+         <p>Ingrese su mensaje</p>
+          <input type="text" class="desingInputText"  id = "firstText">
+          <br>
+          
+            <p>Inserte la cantidad de desplazamiento</p>  
+            <input type="text"   id ="getASCCI" >
+           
+         <br>
+         <br>
+        
 
-                Offset <input type="text"   id ="getASCCI" >
-               <br>
-               <h1 id = "textoAqui">  </h1> 
-
-               <input type="button" value ="encript" id ="encriptButton" onclick="showText()">
-
-               <br>
-
-               <br>
+         <input type="button" value ="Encriptar Texto" id ="encriptButton" onclick="showText()">
+         <input type="button" value ="Desencriptar Texto" id ="desencriptButton" onclick="showTextDesencript()">
+         <h1 id = "textoAqui">  </h1> 
 
 
-         </form>
+         <br>
 
+         <br>
+
+
+   </form>
+
+  
 
       </section>
-
 
 
 
