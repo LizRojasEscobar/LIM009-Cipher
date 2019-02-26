@@ -51,7 +51,7 @@
     border-radius: 10px;
     background-color: khaki;
     width: 200px;
-    padding: 100px;  
+    padding: 80px;  
     margin-left: 180px;
     margin-right: 50px;
 
@@ -108,7 +108,7 @@ p{
 
 }
 #back{
-    background-color:coral;
+    background-color:#A1B004;
     border:none;
     color: white;
     padding: 15px 15px;
@@ -121,9 +121,10 @@ p{
  h4{
      background-color: #1fbdad;
      border-radius: 10px;
-     padding: 100px;
+     padding: 80px;
      width: 200px;
- 
+    font-style: italic;
+    font-size:20px; 
 
  }
  #contenido{
