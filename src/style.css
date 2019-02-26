@@ -40,7 +40,7 @@
 }
 
 .named{
-    font-size: 30px;
+  
     font-family: initial;
     font-style: italic;
     text-align: center;
@@ -48,11 +48,12 @@
 
 
 #firstText{
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: khaki;
     width: 200px;
-    padding: 100px;
-    
+    padding: 100px;  
+    margin-left: 180px;
+    margin-right: 50px;
 
 }
 
@@ -61,6 +62,7 @@
     background-color:khaki;
     width: 150px;
     padding: 10px;
+    margin-left: 180px;
 
 }
 #encriptButton{
@@ -70,14 +72,18 @@
     padding: 15px 15px;
     font-size: 20px;
     font-family:unset;
-    margin-left: 20px;
+    margin-left: 180px;
     border-radius: 5px;
+
 }
 p{
     font-style: initial;
-    font-size: 22px;
-    color :black;
+    font-size: 25px;
+    color :#A1B004;
     font-style: italic;
+    margin-left: 190px;
+    
+    
 }
 
 #desencriptButton{
@@ -90,3 +96,41 @@ p{
     margin-left: 20px;
     border-radius: 5px;
 }
+#clean{
+    background-color:#0470B6;
+    border:none;
+    color: white;
+    padding: 15px 15px;
+    font-size: 20px;
+    font-family:unset;
+    margin-left: 400px;
+    border-radius: 5px;
+
+}
+#back{
+    background-color:coral;
+    border:none;
+    color: white;
+    padding: 15px 15px;
+    font-size: 20px;
+    font-family:unset;
+    margin-left: 20px;
+    border-radius: 5px;
+
+}
+ h4{
+     background-color: #1fbdad;
+     border-radius: 10px;
+     padding: 100px;
+     width: 200px;
+ 
+
+ }
+ #contenido{
+    display: flex;
+    flex-direction: row;
+    
+
+ }
+
+ 
