@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html >
    <head>
       <meta charset="utf-8">
       <title>Cesar Cipher</title>
       <link rel="stylesheet" href="style.css" />
    </head>
-   <body class= "bd">
+   <body id= "bd">
       <!--El logo de mi empresa-->
       <section id="concept">
          <article id="named" >
@@ -23,13 +23,13 @@
                <form>Ingresa tu nombre:<br><br>
                   <input id="user" type="text"  name="Ingresa tu nombre"><br>
                   <br>
-                  <input type="button" value="Empezar"  id="boton1" onclick="showName()" >
+                  <input type="button" value="Empezar"  id="boton1"  >
                </form>
             </div>
          </article>
       </section>
       <!--texto para encriptar  -->
-      <form id = encriptForm >
+      <form id = "encriptForm">
          <strong>
             <p>Ingrese su mensaje: </p>
          </strong>
@@ -45,14 +45,14 @@
          <br>
          <br>
          <br>
-         <input type="button" value ="Encriptar Texto" id ="encriptButton" onclick="showText()">
-         <input type="button" value ="Desencriptar Texto" id ="desencriptButton" onclick="showTextDesencript()">
-         <input type="button" value ="Nuevo Mensaje" id ="clean"  onclick="cleaner()">
-         <input type="button" value ="Volver al inicio" id ="back"  onclick="location.reload()">
+         <input type="button" value ="Encriptar Texto" id ="encriptButton" >
+         <input type="button" value ="Desencriptar Texto" id ="desencriptButton" >
+         <input type="button" value ="Nuevo Mensaje" id ="clean"  >
+         <input type="button" value ="Volver al inicio" id ="back"  >
          <br>
          <br>
       </form>
-      <script type="text/javascript"src="cipher.js"></script>
-      <script type="text/javascript" src="index.js"></script>
+      <script  src="cipher.js"> </script>
+      <script  src="index.js"> </script>
    </body>
 </html>
