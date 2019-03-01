@@ -1,12 +1,10 @@
+# Riddle Code 
+Riddle code es una compañia encargada de brindar seguridad a tus mensajes encriptandolos, para cuidar tu privacidad. 🤗
+
 # De que trata? 😅
+En algunas ocasiones la forma en la que nos comunicamos suele ser muy vulnerable, sobre todo si se manejan dispositivos compartidos con otras personas, debido a esto nuestra información se encuentra expuesta a riesgos, perdiendo así su privacidad, por esta razón se ha creado una aplicación con la funcionalidad del cifrado Cesar, en la que se busca comunicarse con otras personas cifrando el mensaje. 
 
-En algunas ocasiones la forma en la que nos comunicamos suele ser muy vulnerable sobre todo si se manejan dispositivos compartidos, nuestros mensajes se encuentran a merced de los entes ajenos, perdiendo así su privacidad, debido a esto se busca comunicarse con otras personas cifrando el mensaje, para no perder su privacidad, por esa razón se ha creado una aplicación con la funcionalidad del cifrado Cesar.
-
-Riddle code es una compañia encargada de brindar seguridad a tus mensajes encriptandolos, para cuidar tu privacidad. 🤗 
-
-# Cifrado César 🧐
-
-Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
+## Cifrado César 🧐
 
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
 
@@ -17,19 +15,24 @@ Por ejemplo, si usamos un desplazamiento de 3 posiciones:
 - Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 - Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 
-# Por que es importante
+## Por que es importante? 🤠
 
-Dinámica de la aplicación
-La aplicación cuenta con tres partes esenciales:
+Podrás cifrar un mensaje para ocultar su contenido y así solo tú y la otra persona con quien te comunicas sabrán realmente el significado, evitando de esta forma que tu informacion se encuentre expuesta a riesgos y perdida de privacidad.
+Interesante ¿Verdad?🔍
 
-La primera parte:
-Escribe el mensaje que quieres cifrar para después compartir y debajo de ese recuadro te pide que escribas un número que va a indicar el número de desplazamientos que hará la aplicación para ocultar el mensaje.
+## Sobre la aplicación 
 
-La segunda parte:
-Muestra el mensaje ya con las letras asignadas de acuerdo al número de los desplazamientos que en la primer parte seleccionaste, y para poder descifrar el mensaje se deberá copiar el resultado de está sección con el mismo número de desplazamientos que se seleccionó.
+file:///C:/Users/Liz/Downloads/Diagrama.webp
 
-La tercer parte:
-Muestra el mensaje ya descrifrado que de acuerdo a la anterior explicación debe de dar el mensaje original antes de ser modificado y hacerlo entendible. 
+## Dinámica de la aplicación
 
+### La primera parte:
+Se escribe el mensaje que quieres cifrar para después compartir y debajo de ese recuadro te pide que escribas un número que va a indicar el número de desplazamientos que hará la aplicación para cifrar el mensaje.
+
+### La segunda parte:
+Se muestra el mensaje ya cifrado, para poder descifrar el mensaje se tiene que copiar el resultado y pegarla en el recuadro. Asimismo, debera insertar la cantidad de desplazamientos que se ingreso al inicio.
+
+### La tercera parte:
+Se muestra el mensaje ya descrifrado que de acuerdo a la anterior explicación debe de dar el mensaje original.
 
 
