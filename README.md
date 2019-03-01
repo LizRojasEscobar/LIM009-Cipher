@@ -22,7 +22,8 @@ Interesante ¿Verdad?🔍
 
 ## Sobre la aplicación
 
-
+![Diagrama](img/Diagrama.png "Diagrama")
+           
 
 ## Dinámica de la aplicación
 
