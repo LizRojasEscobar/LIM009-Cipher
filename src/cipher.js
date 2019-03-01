@@ -18,7 +18,7 @@ window.cipher = {
 				}
 				encriptedWord += String.fromCharCode(numAscci);
 
-			} else if (numAscci >= 97 && numAscci <= 122) {
+			} /*else if (numAscci >= 97 && numAscci <= 122) {
 				encriptedWord += String.fromCharCode(((numAscci) - 97 + parseInt(offset)) % 26 + 97);
 			} else if (numAscci >= 48 && numAscci <= 57) {
 
@@ -29,7 +29,7 @@ window.cipher = {
 			} else {
 				alert("Por favor ingrese su mensaje");
 			}
-
+*/
 		}
 
 		return encriptedWord;
@@ -53,7 +53,7 @@ window.cipher = {
 					desencriptedWord += String.fromCharCode(((numAscci) - 90 - parseInt(offset)) % 26 + 90);
 				}
 				desencriptedWord += String.fromCharCode(numAscci);
-			} else if (numAscci >= 97 && numAscci <= 122) {
+			} /*else if (numAscci >= 97 && numAscci <= 122) {
 
 				desencriptedWord += String.fromCharCode(((numAscci) - 122 - parseInt(offset)) % 26 + 122);
 			} else if (numAscci >= 48 && numAscci <= 57) {
@@ -64,7 +64,7 @@ window.cipher = {
 				desencriptedWord += String.fromCharCode(((numAscci) - 47 - parseInt(offset)) % 15 + 47);
 			} else {
 				alert("Ingrese texto por favor");
-			}
+			}*/
 		}
 
 		return desencriptedWord;
