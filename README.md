@@ -20,9 +20,9 @@ Por ejemplo, si usamos un desplazamiento de 3 posiciones:
 Podrás cifrar un mensaje para ocultar su contenido y así solo tú y la otra persona con quien te comunicas sabrán realmente el significado, evitando de esta forma que tu informacion se encuentre expuesta a riesgos y perdida de privacidad.
 Interesante ¿Verdad?🔍
 
-## Sobre la aplicación 
+## Sobre la aplicación
 
-file:///C:/Users/Liz/Downloads/Diagrama.webp
+
 
 ## Dinámica de la aplicación
 
