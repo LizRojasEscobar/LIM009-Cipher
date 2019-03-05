@@ -45,12 +45,4 @@ switch (e.target.id){
      break;
 
 }
-
-<<<<<<< HEAD
-     
-   location.reload();
-};
-
-=======
 });
->>>>>>> 859c2c3e18278daf94b23442ba7ac17aa41e7542
