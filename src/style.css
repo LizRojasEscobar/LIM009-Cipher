@@ -50,16 +50,10 @@ figure{
 #firstText{
     border-radius: 5%;
     background-color: khaki;
-<<<<<<< HEAD
-    padding: 100px;  
-    width: 150px;
-    margin-left: 180px;
-    margin-right: 100px;
-=======
     padding: 2.5% 10%;  
     margin-left: 13%;
     margin-right: 5%;
->>>>>>> 859c2c3e18278daf94b23442ba7ac17aa41e7542
+
 
 }
 
@@ -76,13 +70,8 @@ figure{
     background-color:#1fbdad;
     border:none;
     color: white;
-<<<<<<< HEAD
-    padding: 10px 10px;
-    font-size: 20px;
-=======
     padding: 1% 2.5%;
     font-size: 120%;
->>>>>>> 859c2c3e18278daf94b23442ba7ac17aa41e7542
     font-family:unset;
     margin-left: 13%;
     border-radius: 5%;
@@ -102,13 +91,10 @@ p{
     background-color:#1fbdad;
     border:none;
     color: white;
-<<<<<<< HEAD
     padding: 10px 10px;
     font-size: 20px;
-=======
     padding: 1% 2.5%;
     font-size: 120%;
->>>>>>> 859c2c3e18278daf94b23442ba7ac17aa41e7542
     font-family:unset;
     margin-left: 15%;
     border-radius: 5%;
@@ -118,13 +104,8 @@ p{
     background-color:#A1B004;
     border:none;
     color: white;
-<<<<<<< HEAD
-    padding: 10px 10px;
-    font-size: 20px;
-=======
     padding: 1% 2.5%;
     font-size: 120%;
->>>>>>> 859c2c3e18278daf94b23442ba7ac17aa41e7542
     font-family:unset;
     margin-left: 5%;
     border-radius: 5%;
@@ -132,39 +113,22 @@ p{
 
 
 #back{
-<<<<<<< HEAD
-    background-color:#0470B6;
-    border:none;
-    color: white;
-    padding: 10px 10px;
-    font-size: 20px;
-=======
     background-color:#A1B004;
     border:none;
     color: white;
     padding: 1% 2.5%;
     font-size: 120%;
->>>>>>> 859c2c3e18278daf94b23442ba7ac17aa41e7542
     font-family:unset;
     margin-left: 5%;
     border-radius: 5%;
 }
  h4{
      background-color: #1fbdad;
-<<<<<<< HEAD
-     border-radius: 10px;
-     padding: 80px;
-     width: 300px;
-     font-style: italic;
-     font-size: 20px;
- 
-
-=======
      border-radius: 5%;
      padding: 7% 5%;
      font-style: italic;
      font-size:100%; 
->>>>>>> 859c2c3e18278daf94b23442ba7ac17aa41e7542
+
  }
 
  #contenido{
