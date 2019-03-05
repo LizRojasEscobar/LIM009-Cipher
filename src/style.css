@@ -2,7 +2,6 @@
     background-image: url("file:///C:/Users/Liz/Downloads/fondo9.webp"); 
     background-size: cover;
   
-
 }
 
 
@@ -11,13 +10,14 @@
 	display:block;
 }
 
-#concept{
+.concept{
     font-size: 30px;
     font-family: initial;
     font-style: italic;
     text-align: center;
     
 }
+
 
 #boton1{
    
@@ -82,7 +82,7 @@ p{
     color :#A1B004;
     font-style: italic;
     margin-left: 190px;
-    
+    font-weight: 100;
     
 }
 
@@ -131,7 +131,4 @@ p{
     display: flex;
     flex-direction: row;
     
-
  }
-
- 
