@@ -1,41 +1,41 @@
-.bd{
+figure{
+    size: 300%;
+
+
+}
+
+#bd{
     background-image: url("file:///C:/Users/Liz/Downloads/fondo9.webp"); 
     background-size: cover;
   
-
 }
 
 
-.centrado{
-    margin:30px auto;
-	display:block;
-}
-
-#concept{
-    font-size: 30px;
+.concept{
+    font-size: 170%;
     font-family: initial;
     font-style: italic;
     text-align: center;
     
 }
 
+
 #boton1{
    
-     background-color:#1fbdad;
+    background-color:#1fbdad;
     border:none;
     color: white;
-    padding: 15px 15px;
-    font-size: 20px;
+    padding: 1% 2.5%;
+    font-size: 70%;
     font-family:unset;
-    margin-left: 20px;
-    border-radius: 5px;
+    border-radius: 5%;
 }
 
 #user{
-    border-radius: 15px;
+    border-radius: 5%;
     background-color:khaki;
-    width: 150px;
-    padding: 20px;
+    width: 10%;
+    padding: 1.5% 2.5%;
     border-color:#e3cc77; 
 }
 
@@ -48,41 +48,53 @@
 
 
 #firstText{
-    border-radius: 10px;
+    border-radius: 5%;
     background-color: khaki;
+<<<<<<< HEAD
     padding: 100px;  
     width: 150px;
     margin-left: 180px;
     margin-right: 100px;
+=======
+    padding: 2.5% 10%;  
+    margin-left: 13%;
+    margin-right: 5%;
+>>>>>>> 859c2c3e18278daf94b23442ba7ac17aa41e7542
 
 }
 
 #getASCCI{
-    border-radius: 15px;
+    border-radius: 5%;
     background-color:khaki;
-    width: 150px;
-    padding: 10px;
-    margin-left: 180px;
+    width: 10%;
+    padding: 1.5% 2.5%;
+    margin-left: 13%;
 
 }
+
 #encriptButton{
     background-color:#1fbdad;
     border:none;
     color: white;
+<<<<<<< HEAD
     padding: 10px 10px;
     font-size: 20px;
+=======
+    padding: 1% 2.5%;
+    font-size: 120%;
+>>>>>>> 859c2c3e18278daf94b23442ba7ac17aa41e7542
     font-family:unset;
-    margin-left: 180px;
-    border-radius: 5px;
-
+    margin-left: 13%;
+    border-radius: 5%;
 }
+
 p{
     font-style: initial;
-    font-size: 25px;
+    font-size: 150%;
     color :#A1B004;
     font-style: italic;
-    margin-left: 190px;
-    
+    margin-left: 13%;
+    font-weight: 100%;
     
 }
 
@@ -90,36 +102,56 @@ p{
     background-color:#1fbdad;
     border:none;
     color: white;
+<<<<<<< HEAD
     padding: 10px 10px;
     font-size: 20px;
+=======
+    padding: 1% 2.5%;
+    font-size: 120%;
+>>>>>>> 859c2c3e18278daf94b23442ba7ac17aa41e7542
     font-family:unset;
-    margin-left: 20px;
-    border-radius: 5px;
+    margin-left: 15%;
+    border-radius: 5%;
 }
+
 #clean{
     background-color:#A1B004;
     border:none;
     color: white;
+<<<<<<< HEAD
     padding: 10px 10px;
     font-size: 20px;
+=======
+    padding: 1% 2.5%;
+    font-size: 120%;
+>>>>>>> 859c2c3e18278daf94b23442ba7ac17aa41e7542
     font-family:unset;
-    margin-left: 400px;
-    border-radius: 5px;
-
+    margin-left: 5%;
+    border-radius: 5%;
 }
+
+
 #back{
+<<<<<<< HEAD
     background-color:#0470B6;
     border:none;
     color: white;
     padding: 10px 10px;
     font-size: 20px;
+=======
+    background-color:#A1B004;
+    border:none;
+    color: white;
+    padding: 1% 2.5%;
+    font-size: 120%;
+>>>>>>> 859c2c3e18278daf94b23442ba7ac17aa41e7542
     font-family:unset;
-    margin-left: 20px;
-    border-radius: 5px;
-
+    margin-left: 5%;
+    border-radius: 5%;
 }
  h4{
      background-color: #1fbdad;
+<<<<<<< HEAD
      border-radius: 10px;
      padding: 80px;
      width: 300px;
@@ -127,12 +159,16 @@ p{
      font-size: 20px;
  
 
+=======
+     border-radius: 5%;
+     padding: 7% 5%;
+     font-style: italic;
+     font-size:100%; 
+>>>>>>> 859c2c3e18278daf94b23442ba7ac17aa41e7542
  }
+
  #contenido{
     display: flex;
     flex-direction: row;
     
-
  }
-
- 
