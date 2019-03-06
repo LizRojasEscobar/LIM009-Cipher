@@ -7,11 +7,13 @@
       <!--Enlazando CSS-->
       <link rel="stylesheet" href="style.css" />
    </head>
-   <body id= "bd">
+   <body id= "bd" class="allBody">
       <!--El logo de mi empresa-->
       <section class="concept">
          <article id="named" >
-           <h1>  RIDDLE CODE </h1> 
+            <div class ="firstTitle">
+            <h1>  Riddle Code </h1>    
+            </div>
        <!--Aqui termina el logo de mi empresa-->      
             <strong> Riddle code es una compañia encargada de brindar seguridad a tus mensajes <br>
             encriptandolos, para cuidar tu privacidad. </strong>
@@ -22,7 +24,7 @@
                <form>Ingresa tu nombre:<br><br>
                   <input id="user" type="text"  name="Ingresa tu nombre"><br>
                   <br>
-                  <input type="button" value="Empezar"  id="boton1">
+                  <input type="button" value="Empezar"  id="boton1" class ="allButtons">
                </form>
             </div>
          </article>
@@ -30,24 +32,22 @@
       <!--Se ingresa el texto -->
       <form id = "encriptForm">       
             <p>Ingrese su mensaje: </p>        
-         <div id="contenido">
+         <div class="contenido">
             <input type="text" class="desingInputText"  id = "firstText">
        <!--Se muestra el texto encriptado y/o desencriptado  -->
             <h4 id = "textoAqui"> Aqui se muestra su mensaje encriptado, <br>para desencriptar copie el mensaje al cuadro inicial. </h4>
          </div>
-         <br> 
+
       <!--Aqui se define la cantidad de desplazamiento-->      
             <p>Inserte la cantidad de desplazamiento:</p>        
          <input type="text" id ="getASCCI">
          <br>
          <br>
-         <footer>
-         <input type="button" value ="Encriptar Texto" id ="encriptButton">
-         <input type="button" value ="Nuevo Mensaje" id ="clean">
-         <input type="button" value ="Desencriptar Texto" id ="desencriptButton">
-         <input type="button" value ="Volver al inicio" id ="back">
-         </footer>
-         <br>
+         <input type="button" value ="Encriptar Texto" id ="encriptButton" class="allButtons">
+         <input type="button" value ="Nuevo Mensaje" id ="clean" class="allButtons">
+         <input type="button" value ="Desencriptar Texto" id ="desencriptButton" class="allButtons">
+         <input type="button" value ="Volver al inicio" id ="back" class="allButtons">
+       
       </form>
       <!--ENLAZANDO JS-->
       <script  src="cipher.js"> </script>
