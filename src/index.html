@@ -7,9 +7,14 @@
       <!--Enlazando CSS-->
       <link rel="stylesheet" href="style.css" />
    </head>
-   <body id= "bd" class="allBody">
+   <body id= "bd">
+      <figure>
+         <img src="https://i.pinimg.com/originals/6d/c0/b1/6dc0b1eefc47a3e0fb5583f9507cfffa.jpg"
+         alt ="fondo de pantalla">
+      </figure>
       <!--El logo de mi empresa-->
       <section class="concept">
+            
          <article id="named" >
             <div class ="firstTitle">
             <h1>  Riddle Code </h1>    
@@ -22,31 +27,31 @@
             <!--Se muestra el nombre-->
             <div >
                <form>Ingresa tu nombre:<br><br>
-                  <input id="user" type="text"  name="Ingresa tu nombre"><br>
+                  <input id="user" type="text" class="desing-input-name" name="Ingresa tu nombre"><br>
                   <br>
-                  <input type="button" value="Empezar"  id="boton1" class ="allButtons">
+                  <input type="button" value="Empezar"  id="boton1" class ="all-Buttons">
                </form>
             </div>
          </article>
       </section>
       <!--Se ingresa el texto -->
-      <form id = "encriptForm">       
+      <form id = "encript-form">       
             <p>Ingrese su mensaje: </p>        
          <div class="contenido">
-            <input type="text" class="desingInputText"  id = "firstText">
+            <input type="text" class="desing-Input-Text"  id = "first-Text">
        <!--Se muestra el texto encriptado y/o desencriptado  -->
-            <h4 id = "textoAqui"> Aqui se muestra su mensaje encriptado, <br>para desencriptar copie el mensaje al cuadro inicial. </h4>
+            <h4 id = "texto-aqui"> Aqui se muestra su mensaje encriptado, <br>para desencriptar copie el mensaje al cuadro inicial. </h4>
          </div>
 
       <!--Aqui se define la cantidad de desplazamiento-->      
             <p>Inserte la cantidad de desplazamiento:</p>        
-         <input type="text" id ="getASCCI">
+         <input type="text" id ="get-number-ascci" class="input-get-text">
          <br>
          <br>
-         <input type="button" value ="Encriptar Texto" id ="encriptButton" class="allButtons">
-         <input type="button" value ="Nuevo Mensaje" id ="clean" class="allButtons">
-         <input type="button" value ="Desencriptar Texto" id ="desencriptButton" class="allButtons">
-         <input type="button" value ="Volver al inicio" id ="back" class="allButtons">
+         <input type="button" value ="Encriptar Texto" id ="encript-Button" class="all-Buttons">
+         <input type="button" value ="Nuevo Mensaje" id ="clean" class="all-Buttons">
+         <input type="button" value ="Desencriptar Texto" id ="desencript-Button" class="all-Buttons">
+         <input type="button" value ="Volver al inicio" id ="back" class="all-Buttons">
        
       </form>
       <!--ENLAZANDO JS-->

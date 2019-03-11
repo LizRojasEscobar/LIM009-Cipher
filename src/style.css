@@ -1,86 +1,62 @@
 .firstTitle h1{
     font-size: 250%;
     color:#B60435;
-    font-family: 'Julius Sans One', sans-serif;
-       
+    font-family: 'Julius Sans One', sans-serif;       
 }
-
-
-.allBody {    
-    background-image: url("https://i.pinimg.com/564x/cf/20/da/cf20da9c81a83b3442323a58f15f81ba.jpg"); 
-    background-size: contain 100%;
-    background-repeat: space;
-    width: 100%;
-    height: 150%;
-    z-index:-1;
-    
-
-  
-}
-
-
 .concept{
     font-size: 170%;
     font-family: 'Staatliches', cursive;
     font-style: italic;
-    text-align: center;
-    
+    text-align: center;   
+}
+img {   
+    background-size: cover;
+    position: absolute;
+    z-index:-1;
+    opacity: 0.5;
 }
 
-
-.allButtons{
-   
-    background-color:#1fbdad;
+.all-Buttons{
     border:none;
     color: white;
     padding: 1% 2.5%;
-    font-size: 70%;
     font-family:unset;
     border-radius: 5%;
+    font-size: 70%;
 }
-
-
-
-#user{
+.desing-input-name{
     border-radius: 5%;
     background-color:khaki;
     width: 10%;
     padding: 1.5% 2.5%;
     border-color:#e3cc77; 
 }
-
-.named{
-  
+.named{  
     font-family: initial;
     font-style: italic;
     text-align: center;
 }
-
-
-#firstText{
+.desing-Input-Text{
     border-radius: 5%;
     background-color: khaki;
     padding: 2.5% 10%;  
     margin-left: 13%;
     margin-right: 5%;
-
-
 }
-
-#getASCCI{
+.input-get-text{
     border-radius: 5%;
     background-color:khaki;
     width: 10%;
     padding: 1.5% 2.5%;
     margin-left: 13%;
-
 }
-
-#encriptButton{
-    font-size: 120%;
+#boton1{
+    background-color: #B60435;
+}
+#encript-Button{   
+    background-color:#1fbdad;
     margin-left: 13%;
 }
-
 p{
     font-family: 'Staatliches', cursive;
     font-size: 150%;
@@ -88,24 +64,18 @@ p{
     font-style: italic;
     margin-left: 13%;
     font-weight: bold;
-         
 }
-
-#desencriptButton{
-    font-size: 120%;
+#desencript-Button{
+   
     margin-left: 15%;
+    background-color:#1fbdad;
 }
-
 #clean{
-    background-color:fuchsia;
-    font-size: 120%;
+    background-color:fuchsia;   
     margin-left: 5%;
 }
-
-
 #back{
     background-color:#A1B004;
-    font-size: 120%;
     margin-left: 5%;
 }
  h4{
@@ -114,11 +84,8 @@ p{
      padding: 7% 5%;
      font-style: italic;
      font-size:100%; 
-
  }
-
  .contenido{
     display: flex;
     flex-direction: row;
-    
  }

@@ -1,48 +1,33 @@
+document.getElementById('encript-form').style.display='none';//Se esconde el formulario
 
-//Se esconde el formulario
-document.getElementById('encriptForm').style.display='none';
-
-//Funcion para obtener el nombre
-const showName= ()=>{
+const showName= ()=>{ //Funcion para obtener el nombre
     let username= document.getElementById('user').value;
      document.getElementById('named').innerHTML= ('Bienvenid@  '+ username);
-     document .getElementById('encriptForm').style.display ='initial';
-}; 
+     document .getElementById('encript-form').style.display ='initial';
+};  
+const eventofButtons = document.getElementById('bd');//Eventos de los botones
+     eventofButtons.addEventListener('click', (e)=>{
 
-//Eventos de los botones 
-const eventofButtons = document.getElementById('bd');
-eventofButtons.addEventListener('click', (e)=>{
+let getText =document.getElementById ('first-Text').value;
+let encriptNumber =document.getElementById ('get-number-ascci').value;
 
-     let getText =document.getElementById ('firstText').value;
-     let encriptNumber =document.getElementById ('getASCCI').value;
-
-switch (e.target.id){
- 
+switch (e.target.id){ 
      case 'boton1':
           showName();
      break;
-     case 'encriptButton':
-     document.getElementById('textoAqui').innerHTML = (window.cipher.encode(encriptNumber,getText));
+     case 'encript-Button':
+          document.getElementById('texto-aqui').innerHTML = (window.cipher.encode(encriptNumber,getText));
      break;
-
-     case 'desencriptButton':
-     
-     document.getElementById('textoAqui').innerHTML = (window.cipher.decode(encriptNumber,getText));
-     
+     case 'desencript-Button':     
+          document.getElementById('texto-aqui').innerHTML = (window.cipher.decode(encriptNumber,getText));
      break;
-
      case 'clean':
-
-     document.getElementById ('firstText').value =' ';
-     document.getElementById ('getASCCI').value =' ';
-     
-     
-     break;
-      
+          document.getElementById ('first-Text').value =' ';
+          document.getElementById ('get-number-ascci').value =' ';  
+     break;      
      case 'back':
-     location.reload();
+          location.reload();
 
      break;
-
 }
 });
