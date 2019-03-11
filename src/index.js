@@ -8,21 +8,21 @@ const showName= ()=>{ //Funcion para obtener el nombre
 const eventofButtons = document.getElementById('bd');//Eventos de los botones
      eventofButtons.addEventListener('click', (e)=>{
 
-let getText =document.getElementById ('first-Text').value;
+let getText =document.getElementById ('first-text').value;
 let encriptNumber =document.getElementById ('get-number-ascci').value;
 
 switch (e.target.id){ 
      case 'boton1':
           showName();
      break;
-     case 'encript-Button':
+     case 'encript-button':
           document.getElementById('texto-aqui').innerHTML = (window.cipher.encode(encriptNumber,getText));
      break;
-     case 'desencript-Button':     
+     case 'desencript-button':     
           document.getElementById('texto-aqui').innerHTML = (window.cipher.decode(encriptNumber,getText));
      break;
      case 'clean':
-          document.getElementById ('first-Text').value =' ';
+          document.getElementById ('first-text').value =' ';
           document.getElementById ('get-number-ascci').value =' ';  
      break;      
      case 'back':

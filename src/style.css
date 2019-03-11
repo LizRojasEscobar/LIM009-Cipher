@@ -1,4 +1,4 @@
-.firstTitle h1{
+.first-title h1{
     font-size: 250%;
     color:#B60435;
     font-family: 'Julius Sans One', sans-serif;       
@@ -15,15 +15,14 @@ img {
     z-index:-1;
     opacity: 0.5;
 }
-
-.all-Buttons{
+.all-buttons{
     border:none;
     color: white;
     padding: 1% 2.5%;
     font-family:unset;
     border-radius: 5%;
     font-size: 70%;
-}
+   }
 .desing-input-name{
     border-radius: 5%;
     background-color:khaki;
@@ -36,7 +35,7 @@ img {
     font-style: italic;
     text-align: center;
 }
-.desing-Input-Text{
+.desing-input-text{
     border-radius: 5%;
     background-color: khaki;
     padding: 2.5% 10%;  
@@ -52,10 +51,12 @@ img {
 }
 #boton1{
     background-color: #B60435;
+    
 }
-#encript-Button{   
+#encript-button{   
     background-color:#1fbdad;
     margin-left: 13%;
+    font-size: 120%;
 }
 p{
     font-family: 'Staatliches', cursive;
@@ -65,16 +66,18 @@ p{
     margin-left: 13%;
     font-weight: bold;
 }
-#desencript-Button{
-   
+#desencript-button{
+    font-size: 120%;
     margin-left: 15%;
     background-color:#1fbdad;
 }
 #clean{
+    font-size: 120%;
     background-color:fuchsia;   
     margin-left: 5%;
 }
 #back{
+    font-size: 120%;
     background-color:#A1B004;
     margin-left: 5%;
 }
